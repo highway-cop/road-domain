@@ -1,0 +1,19 @@
+{
+    "name": "road-domain",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/highway-cop/road-domain.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "GPLV3",
+    "bugs": {
+        "url": "https://github.com/highway-cop/road-domain/issues"
+    },
+    "homepage": "https://github.com/highway-cop/road-domain#readme",
+    "devDependencies": {
+        "@types/bson": "^4.0.4",
+        "@types/google.maps": "^3.45.6"
+    }
+}
