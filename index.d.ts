@@ -1,6 +1,6 @@
 declare namespace road.domain {
 
-    export interface Accident { 
+    export interface Accident {
 
         _id?: import('bson').ObjectId;
 
@@ -63,6 +63,30 @@ declare namespace road.domain {
         uso_solo: string;
 
         veiculos: string;
+
+    }
+
+    export interface AccidentByCityResponse {
+
+        date: string;
+
+        city: string;
+
+        road: string;
+
+        km: string;
+
+        type: string;
+
+        reason: string;
+
+        location: {
+
+            lat: number;
+
+            lng: number;
+
+        }
 
     }
 
