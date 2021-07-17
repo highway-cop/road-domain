@@ -3,6 +3,9 @@ name: Install
 on:
   push:
     branches: [main]
+    paths:
+      - "index.d.ts"
+      - "package.json"
 
 jobs:
   default:
