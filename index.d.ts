@@ -34,11 +34,15 @@ declare namespace road.domain {
 
         ilesos: string;
 
-        km: string;
+        km: number;
 
-        latitude: number;
+        localizacao: {
 
-        longitude: number;
+            type: 'Point',
+
+            coordinates: [number, number]
+
+        }
 
         mortos: string;
 
