@@ -70,7 +70,7 @@ declare namespace road.domain {
 
     }
 
-    export interface AccidentByCityResponse {
+    export interface AccidentProjection {
 
         date: string;
 
